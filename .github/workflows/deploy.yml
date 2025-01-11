@@ -29,4 +29,4 @@ jobs:
             -f pages[source][branch]=gh-pages \
             -f pages[source][path]=/
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
